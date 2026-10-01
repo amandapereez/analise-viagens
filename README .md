@@ -5,7 +5,7 @@ Análise das despesas com viagens a serviço do Governo Federal em 2023, agrupad
 - uma **tabela consolidada** por cargo (despesa média, duração média, despesas totais, destino mais frequente e número de viagens), salva em Excel;
 - um **gráfico** da despesa média por cargo, considerando apenas os cargos com mais de 1% das viagens.
 
-![Despesa média em viagens por cargo público (2023)](images/grafico_2023.png)
+![Despesa média em viagens por cargo público (2023)](grafico_2023.png)
 
 > As barras estão ordenadas pelo **número de viagens** de cada cargo (de cima para baixo, do mais ao menos frequente), e não pelo valor da despesa média.
 
