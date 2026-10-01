@@ -1,14 +1,13 @@
 # Análise de Viagens a Serviço - Governo Federal (2023)
 
-Análise das despesas com viagens a serviço do Governo Federal em 2023, agrupadas por cargo público.
-Este projeto foi desenvolvido como parte do curso **Python para Dados: do zero à análise completa**, da **Asimov Academy**, utilizando dados públicos do Portal da Transparência do Governo Federal.
+[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amandapereez/analise-viagens/blob/main/analise_viagens.ipynb)
 
-O notebook realiza etapas de tratamento, transformação, consolidação e visualização dos dados e gera:
+Análise das despesas com viagens a serviço do Governo Federal em 2023, agrupadas por cargo público. O notebook gera:
 
-- Uma **tabela consolidada** por cargo, contendo despesa média, duração média, despesas totais, destino mais frequente e número de viagens, salva em Excel;
-- Um **gráfico** da despesa média por cargo, considerando apenas os cargos com mais de 1% das viagens.
+- uma **tabela consolidada** por cargo (despesa média, duração média, despesas totais, destino mais frequente e número de viagens), salva em Excel;
+- um **gráfico** da despesa média por cargo, considerando apenas os cargos com mais de 1% das viagens.
 
-![Despesa média em viagens por cargo público (2023)](grafico_2023.png)
+![Despesa média em viagens por cargo público (2023)](output/grafico_2023.png)
 
 > As barras estão ordenadas pelo **número de viagens** de cada cargo (de cima para baixo, do mais ao menos frequente), e não pelo valor da despesa média.
 
@@ -25,33 +24,29 @@ Valores aproximados, lidos do gráfico acima. A tabela consolidada, com os cargo
 
 ## Fonte dos dados
 
-[Portal da Transparência do Governo Federal](https://portaldatransparencia.gov.br/) (Controladoria-Geral da União), seção **Download de dados > Viagens**. São dados públicos.
+[Portal da Transparência do Governo Federal](https://portaldatransparencia.gov.br/) (Controladoria-Geral da União). São dados públicos.
 
-O arquivo bruto **não está neste repositório** por exceder o limite de tamanho do GitHub.
+O arquivo `2023_Viagem.csv` é grande demais para o GitHub, então o notebook o baixa automaticamente de uma cópia no [Google Drive](https://drive.google.com/file/d/18j80hFqWkKMRyWGm_Jol539dX0Z0Vkoz/view).
 
 ## Como executar
 
-1. Clone o repositório e instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Baixe os dados de viagens de **2023** no Portal da Transparência, extraia o `.zip` e coloque o arquivo `2023_Viagem.csv` dentro da pasta `data/`.
-3. Abra e execute o notebook:
-   ```bash
-   jupyter notebook analise_viagens.ipynb
-   ```
-4. Os resultados são salvos na pasta `output/` (`tabela_2023.xlsx` e `grafico_2023.png`), sobrescrevendo os arquivos existentes.
+**No Google Colab (1 clique):** clique no botão "Abrir no Colab" no topo desta página e execute as células. Os dados são baixados sozinhos.
+
+**No seu computador:**
+1. Instale as dependências: `pip install -r requirements.txt`
+2. Execute o notebook `analise_viagens.ipynb`. Na primeira vez, ele baixa o CSV para a pasta `data/`.
+
+Os resultados são salvos na pasta `output/`.
 
 ## Estrutura
 
 ```
 .
-├── analise_viagens.ipynb   # notebook com a análise
-├── requirements.txt        # dependências
-├── grafico_2023.png        # gráfico exibido neste README
-├── data/                   # coloque aqui o 2023_Viagem.csv (não incluído no repositório)
+├── analise_viagens.ipynb
+├── requirements.txt
 └── output/
-    └── tabela_2023.xlsx    # tabela consolidada por cargo
+    ├── grafico_2023.png
+    └── tabela_2023.xlsx
 ```
 
 ## Observações
