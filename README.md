@@ -2,10 +2,14 @@
 
 [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amandapereez/analise-viagens/blob/main/analise_viagens.ipynb)
 
-Análise das despesas com viagens a serviço do Governo Federal em 2023, agrupadas por cargo público. O notebook gera:
+Análise das despesas com viagens a serviço do Governo Federal em 2023, agrupadas por cargo público. 
 
-- uma **tabela consolidada** por cargo (despesa média, duração média, despesas totais, destino mais frequente e número de viagens), salva em Excel;
-- um **gráfico** da despesa média por cargo, considerando apenas os cargos com mais de 1% das viagens.
+> Projeto desenvolvido durante o curso **Python para Dados: do zero à análise completa**, da **Asimov Academy**, com foco na aplicação prática de Python e Pandas para tratamento, análise e visualização de dados públicos.
+
+O notebook gera:
+
+- Uma **tabela consolidada** por cargo (despesa média, duração média, despesas totais, destino mais frequente e número de viagens), salva em Excel;
+- Um **gráfico** da despesa média por cargo, considerando apenas os cargos com mais de 1% das viagens.
 
 ![Despesa média em viagens por cargo público (2023)](output/grafico_2023.png)
 
