@@ -2,10 +2,13 @@
 
 [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amandapereez/analise-viagens/blob/main/analise_viagens.ipynb)
 
-Análise das despesas com viagens a serviço do Governo Federal em 2023, agrupadas por cargo público. O notebook gera:
+Análise das despesas com viagens a serviço do Governo Federal em 2023, agrupadas por cargo público. 
+> Projeto desenvolvido durante o curso **Python para Dados: do zero à análise completa**, da **Asimov Academy**, com foco na aplicação prática de Python e Pandas para tratamento, análise e visualização de dados públicos.
 
-- uma **tabela consolidada** por cargo (despesa média, duração média, despesas totais, destino mais frequente e número de viagens), salva em Excel;
-- um **gráfico** da despesa média por cargo, considerando apenas os cargos com mais de 1% das viagens.
+O notebook gera:
+
+- Uma **tabela consolidada** por cargo (despesa média, duração média, despesas totais, destino mais frequente e número de viagens), salva em Excel;
+- Um **gráfico** da despesa média por cargo, considerando apenas os cargos com mais de 1% das viagens.
 
 ![Despesa média em viagens por cargo público (2023)](output/grafico_2023.png)
 
@@ -26,7 +29,7 @@ Valores aproximados, lidos do gráfico acima. A tabela consolidada, com os cargo
 
 [Portal da Transparência do Governo Federal](https://portaldatransparencia.gov.br/) (Controladoria-Geral da União). São dados públicos.
 
-O arquivo `2023_Viagem.csv` é grande demais para o GitHub, então o notebook o baixa automaticamente de uma cópia no [Google Drive](https://drive.google.com/file/d/18j80hFqWkKMRyWGm_Jol539dX0Z0Vkoz/view).
+O arquivo `2023_Viagem.csv` é grande demais para ser armazenado no GitHub. Por isso, o notebook baixa automaticamente uma cópia do arquivo disponibilizada no [Google Drive](https://drive.google.com/file/d/18j80hFqWkKMRyWGm_Jol539dX0Z0Vkoz/view).
 
 ## Como executar
 
@@ -34,7 +37,7 @@ O arquivo `2023_Viagem.csv` é grande demais para o GitHub, então o notebook o 
 
 **No seu computador:**
 1. Instale as dependências: `pip install -r requirements.txt`
-2. Execute o notebook `analise_viagens.ipynb`. Na primeira vez, ele baixa o CSV para a pasta `data/`.
+2. Execute o notebook `analise_viagens.ipynb`. Na primeira execução, ele cria a pasta `data/` e baixa automaticamente o CSV.
 
 Os resultados são salvos na pasta `output/`.
 
