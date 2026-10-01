@@ -11,7 +11,7 @@ Análise das despesas com viagens a serviço do Governo Federal em 2023, agrupad
 
 ## Principais resultados
 
-Valores aproximados, lidos do gráfico acima.
+Valores aproximados, lidos do gráfico acima. A tabela consolidada, com os cargos que representam mais de 1% das viagens, está em [`output/tabela_2023.xlsx`](output/tabela_2023.xlsx).
 
 - **Técnico do Seguro Social tem a maior despesa média por viagem**, em torno de R$ 4.300. É mais que o dobro da de cargos como Professor do Magistério Superior (cerca de R$ 2.000).
 - **A despesa média varia bastante entre cargos**: de cerca de R$ 1.000 (Contratado Lei 8745/93) a mais de R$ 4.000.
@@ -37,17 +37,18 @@ O arquivo bruto **não está neste repositório** por ser grande demais para o G
    ```bash
    jupyter notebook analise_viagens.ipynb
    ```
-4. Os resultados são salvos na pasta `output/` (`tabela_2023.xlsx` e `grafico_2023.png`).
+4. Os resultados são salvos na pasta `output/` (`tabela_2023.xlsx` e `grafico_2023.png`), sobrescrevendo os arquivos existentes.
 
 ## Estrutura
 
 ```
 .
-├── analise_viagens.ipynb
-├── requirements.txt
-├── images/      # gráfico exibido neste README
-├── data/        # coloque aqui o 2023_Viagem.csv (ignorado pelo Git)
-└── output/      # tabela e gráfico gerados (ignorado pelo Git)
+├── analise_viagens.ipynb   # notebook com a análise
+├── requirements.txt        # dependências
+├── grafico_2023.png        # gráfico exibido neste README
+├── data/                   # coloque aqui o 2023_Viagem.csv (não incluído no repositório)
+└── output/
+    └── tabela_2023.xlsx    # tabela consolidada por cargo
 ```
 
 ## Observações
