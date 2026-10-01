@@ -1,9 +1,12 @@
 # Análise de Viagens a Serviço - Governo Federal (2023)
 
-Análise das despesas com viagens a serviço do Governo Federal em 2023, agrupadas por cargo público. O notebook gera:
+Análise das despesas com viagens a serviço do Governo Federal em 2023, agrupadas por cargo público.
+Este projeto foi desenvolvido como parte do curso **Python para Dados: do zero à análise completa**, da **Asimov Academy**, utilizando dados públicos do Portal da Transparência do Governo Federal.
 
-- uma **tabela consolidada** por cargo (despesa média, duração média, despesas totais, destino mais frequente e número de viagens), salva em Excel;
-- um **gráfico** da despesa média por cargo, considerando apenas os cargos com mais de 1% das viagens.
+O notebook realiza etapas de tratamento, transformação, consolidação e visualização dos dados e gera:
+
+- Uma **tabela consolidada** por cargo, contendo despesa média, duração média, despesas totais, destino mais frequente e número de viagens, salva em Excel;
+- Um **gráfico** da despesa média por cargo, considerando apenas os cargos com mais de 1% das viagens.
 
 ![Despesa média em viagens por cargo público (2023)](grafico_2023.png)
 
@@ -24,7 +27,7 @@ Valores aproximados, lidos do gráfico acima. A tabela consolidada, com os cargo
 
 [Portal da Transparência do Governo Federal](https://portaldatransparencia.gov.br/) (Controladoria-Geral da União), seção **Download de dados > Viagens**. São dados públicos.
 
-O arquivo bruto **não está neste repositório** por ser grande demais para o GitHub.
+O arquivo bruto **não está neste repositório** por exceder o limite de tamanho do GitHub.
 
 ## Como executar
 
