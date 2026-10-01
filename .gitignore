@@ -2,10 +2,6 @@
 data/*
 !data/.gitkeep
 
-# Arquivos gerados pelo notebook
-output/*
-!output/.gitkeep
-
 # Python / Jupyter
 __pycache__/
 .ipynb_checkpoints/
