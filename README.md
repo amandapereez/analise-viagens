@@ -23,7 +23,7 @@ A tabela em Excel está em [`output/tabela_2023.xlsx`](output/tabela_2023.xlsx).
 
 ## Principais resultados
 
-- **Técnico do Seguro Social tem a maior despesa média por viagem**: R$ 4.302,48, mais que o dobro da de Professor do Magistério Superior (R$ 2.032,08). Também é o cargo com a maior duração média de viagem, 11,37 dias, o que provavelmente ajuda a explicar o valor.
+- **Técnico do Seguro Social tem a maior despesa média por viagem**: R$ 4.302,48, mais que o dobro da de Professor do Magistério Superior (R$ 2.032,08). Também apresenta a maior duração média de viagem, de 11,37 dias, uma possível variável relacionada ao valor das despesas.
 - **A despesa média varia bastante entre cargos**: de R$ 984,45 (Contratado Lei 8745/93) a mais de R$ 4.000.
 - **Os dois grupos com mais viagens não são cargos de fato**: "Não identificado" e "Informações protegidas por sigilo". Juntos, respondem por cerca de 70% das viagens e 80% da despesa total entre os cargos da tabela, com despesa média de R$ 3.260,26 e R$ 3.137,48. Isso é uma limitação dos dados: grande parte das viagens não permite saber quem viajou.
 - **Entre os cargos identificados**, depois do Técnico do Seguro Social, os maiores gastos médios são de Analista Ambiental (R$ 2.596,94) e Auditor-Fiscal da Receita Federal (R$ 2.418,11).
